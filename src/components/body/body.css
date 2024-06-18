@@ -1,0 +1,35 @@
+.body {
+  width: 60%;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  color: #007bff;
+}
+
+.body-card {
+  width: 200px;
+  border-radius: 100%;
+  border: 6px solid #007bff;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  overflow: hidden;
+  margin: 20px;
+}
+
+.body-card-avatar {
+  width: 200px;
+}
+
+.body-skill-ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  font-size: 20px;
+}
+
+.body-skill-p {
+  font-size: 20px;
+}
